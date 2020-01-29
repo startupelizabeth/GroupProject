@@ -1,0 +1,174 @@
+body {
+  text-align: center;
+  color: #333333;
+}
+
+.twinkl-logo {
+    width: 75px;
+    height: 48px;
+}
+
+/* Nav bar styling */
+
+.navbar {
+    background-color: #2399f9;
+}
+
+.nav-item a {
+    color: white;
+}
+
+.navbar-toggler {
+    color: white;
+    border-color: white;
+    line-height: 1;
+    background-color: transparent;
+}
+
+.navbar-toggler-icon {
+    background-image: url('https://mdbootstrap.com/img/svg/hamburger7.svg?color=fff');
+}
+
+#apply.button {
+    font-family: robotobold,Arial,Helvetica,sans-serif;
+    font-size: 20px;
+    border-radius: 3px;
+    border: 1px solid #fff;
+    background: #d23888;
+    padding: 8px 10px;
+    line-height: 1;
+    color:white;
+    font-weight: 500;
+}
+
+/* jumbotron */
+
+.jumbotron {
+    margin-bottom: 0px;
+    background-image: url("Images/coast.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.header h1 {
+    font-size: 52px;
+    color: white;
+    text-shadow: 1px 1px black;
+}
+
+#list {
+    margin-top: 20px;
+    text-align: left;
+    color: white;
+    text-shadow: 1px 1px black;
+    font-size: 22px;
+}
+
+/* next section */
+
+#upperSection {
+    padding: 50px;
+    background-color: white;
+}
+
+#lowerSection {
+    padding: 50px;
+    background-color: #e5e5e5;
+}
+
+/* side by side section */
+
+#leftSection {
+    float: left;
+    background-color: #2399f9;
+    min-height: 320px;
+    padding: 80px 60px 40px 60px;
+    color: white;
+}
+
+#leftBtn {
+    border: 1px solid white;
+    margin-bottom: 10px;
+    background-color: white;
+    color: #2399f9;
+    text-shadow: 0px 0px 0px !important;
+    font-weight: 600;
+}
+
+#leftBtn:hover {
+  background-color: #d23888;
+  color: white;
+}
+
+#rightSection {
+    float: right;
+    background-color: #d23888;
+    min-height: 320px;
+    color: white;
+    padding: 80px 60px 40px 60px;
+}
+
+  .btn {
+    border: 1px solid #2399f9;
+    margin-bottom: 10px;
+    text-shadow: 1px 1px 3px rgba(0,0,0,.4);
+    background-color: #2399f9;
+    margin-top: 10px;
+  }
+
+
+/* Previous Winners */  
+
+  #heading {
+    height: 200px;
+  }
+
+.winners {
+    padding-bottom: 40px;
+}
+
+#previous p {
+    padding-bottom: 20px;
+}
+
+#profile {
+    width: 140px;
+    height: 140px;
+    margin-bottom: 10px;
+}
+
+
+
+/* Footer */
+
+.footer {
+    width: 100%;
+    padding-right: 40px;
+    padding-left: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #e5e5e5;
+
+  }
+
+  .col-sm p {
+    margin-bottom: 5px;
+  }
+
+  /* Footer end */
+
+  @media (min-width: 320px) {
+
+  .jumbotron {
+    padding: 120px 32px 60px 32px;
+  }
+
+}
+
+@media (min-width: 1440px) {
+
+    #list {
+    padding-left: 100px;
+    }
+}

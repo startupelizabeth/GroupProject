@@ -1,0 +1,89 @@
+/* GLOBAL STYLES
+-------------------------------------------------- */
+/* Padding below the footer and lighter body text */
+
+body {
+    padding-top: 100px;
+    /* padding-right: 50px;
+    padding-left: 50px; */
+    color: #333333;
+    font-family: roboto;
+    text-align: center;
+}
+
+.twinkl-logo {
+    width: 75px;
+    height: 48px;
+}
+
+/* Nav bar styling */
+
+.navbar {
+    background-color: #2399f9;
+}
+
+.nav-item a {
+    color: white;
+}
+
+.navbar-toggler {
+    color: white;
+    border-color: white;
+    line-height: 1;
+    background-color: transparent;
+}
+
+.navbar-toggler-icon {
+    background-image: url('https://mdbootstrap.com/img/svg/hamburger7.svg?color=fff');
+
+}
+.sr-only {
+    color: #d23888;
+}
+
+/* Nav bar end */
+
+.container {
+    max-width: 960px;
+  }    
+
+.col-8 {
+    max-width: 100%;
+}
+
+label {
+    float: left;
+}
+
+form {
+    margin-top: 20px;
+}
+
+.row {
+    margin-bottom: 1rem;
+}
+
+.btn {
+    border: 1px solid #2399f9;
+    margin-bottom: 30px;
+    margin-top: 20px;
+    text-shadow: 1px 1px 3px rgba(0,0,0,.4);
+    background-color: #2399f9;
+}
+
+#success {
+  color: #d23888;
+  font-size: 18px;
+}
+
+
+/* Footer */
+
+.footer {
+    width: 100%;
+    padding-right: 40px;
+    padding-left: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #e5e5e5;
+  }

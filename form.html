@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Enter Here - Teacher of the Year</title>
+        <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+        <link 
+        rel="stylesheet" 
+        href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" 
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" 
+        crossorigin="anonymous">
+        <link rel="stylesheet" href="form.css" type="text/css">
+    </head>
+
+<body>
+<header>
+    <nav class="navbar navbar-expand-md fixed-top">
+        <a class="navbar-brand" href="index.html">
+            <img src="Images/twinkl-logo.png" alt="Twinkl Logo"  width="75" height="48">
+        </a> 
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="campaign.html">About the Award</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="campaign.html#previouswinners">Past Winners</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="form.html">Eligibility Criteria<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="https://www.twinkl.co.uk/">Twinkl for Teachers</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+</header>
+
+<section>
+    <h1 style="color: #d23888; margin-bottom: 20px;">Enter Twinkl's Teacher of the Year here...</h1>
+    <p>Competition runs from 12th February to 9th March 2020</p>
+    <p>You do not have to be a Twinkl subscriber to apply or nominate a teacher.<br/>You can be a newly qualified teacher, or nominate your favourite new teacher.</p>
+    <p><b>Hurry! Applications close at 5pm on 9th March 2020.</b></p>
+    <p>Tell us about yourself or your favourite teacher. Go on, don’t be modest! Big it up and share your story in all its sparkly detail. <b>The teacher with the most nominations will win!</b></p>
+</section>
+
+<div class="container">
+    <div class="row">
+        <div class="col-2"></div>
+    <div class="col-8">
+        <form class="needs-validation" novalidate>
+          <div class="row">
+            <div class="col-md-6 mb-3">
+                <label for="nomineeFirstName">What's your first name?</label>
+                <input type="text" class="form-control" id="nomFirstName" value="" required>
+            <div class="invalid-feedback"> Valid first name is required.</div>
+            </div>
+            <div class="col-md-6 mb-3">
+                <label for="nomineeLastName">And your last name?</label>
+                <input type="text" class="form-control" id="nomLastName" value="" required>
+            <div class="invalid-feedback"> Valid last name is required. </div>
+            </div>
+          </div>
+  
+          <div class="mb-3">
+                <label for="email">What's your email address?</label>
+                <input type="email" class="form-control" id="email" required>
+            <div class="invalid-feedback">Please enter a valid email address.</div>
+          </div>
+
+        <div class="row">
+            <div class="col-md-6 mb-3">
+                <label for="teacherFirstName">What's the teacher's first name?</label>
+                <input type="text" class="form-control" id="firstName" required>
+            <div class="invalid-feedback"> Valid first name is required.</div>
+            </div>
+            <div class="col-md-6 mb-3">
+                <label for="teacherLastName">And their last name?</label>
+                 <input type="text" class="form-control" id="lastName" required>
+            <div class="invalid-feedback"> Valid last name is required. </div>
+            </div>
+        </div>
+
+        <div class="mb-3">
+                <label for="nomineeSchool">What school do they teach at?</label>
+                <input type="text" class="form-control" id="school" required>
+            <div class="invalid-feedback"> Please enter a school name.</div>
+        </div>
+
+        <div class="mb-3">
+                <label for="country">Which country do they teach in?</label>
+                <input type="text" class="form-control" id="country" required>
+            <div class="invalid-feedback"> Please enter a country. </div>
+        </div>
+
+        <div class="mb-3">
+            <label for="nominationCategory">Which category is the nomination for?</label>
+                <select class="custom-select" id="category" required>
+                    <option value="">Choose...</option>
+                    <option>Most inspirational teacher overall</option>
+                    <option>Best newly qualified teacher</option>
+                    <option>Teacher who overcame the biggest challenge</option>
+                    <option>Teacher lifetime achievement award for long, inspirational service to teaching</option>
+                </select>
+            <div class="invalid-feedback"> Please pick a category.</div>
+        </div> 
+  
+        <div class="mb-3">
+            <label for="story">Tell us your inspirational story</label>
+            <textarea class="form-control" rows="5" required></textarea>
+            <div class="invalid-feedback"> Please tell us your story. </div>
+        </div>
+  
+        <div class="custom-control custom-checkbox">
+            <input type="checkbox" class="custom-control-input" id="terms" unchecked required>
+            <label class="custom-control-label" for="terms">Please agree to the T&Cs</label>
+            <div class="invalid-feedback"> Oops! Please check the box. </div>
+        </div>
+
+        <hr class="mb-4">
+            <button class="btn btn-primary btn-lg" type="submit">Submit your nomination</button>
+        </form>
+      <div id="success" style="display:none;">
+        <p>Thanks for your nomination. We'll email the winner after the closing date so keep an eye on your inbox!</p>
+      </div>
+    </div>
+    <div class="col-2"></div>
+</div>
+</div>
+
+<div class="footer">
+    <div class="row">
+        <div class="col-sm">
+            <p><a href="#">Back to top</a></p>
+            <p><a href="https://www.twinkl.co.uk/">
+                <img src="Images/twinkl-logo.png" alt="Twinkl Logo" class="twinkl-logo"></a>
+            </p>
+        </div>
+        <div class="col-sm">
+                <p>Get to know Twinkl</p>
+                <p>About us</p>
+                <p>Press & Media</p>
+                <p>Corporate & Partnerships</p>
+                <p>Legal</p> 
+        </div>
+        <div class="col-sm">
+            <p>Twinkl Global HQ</p>
+            <p>Wards Exchange</p>
+            <p>197 Ecclesall Road</p>
+            <p>Sheffield, S11 8HW, UK</p>
+        </div>
+    </div>
+</div>
+
+</body>
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<script src="form.js"></script>
+
+</html>
